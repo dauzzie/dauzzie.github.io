@@ -14,10 +14,6 @@ class Header extends Component {
       })
     }
 
-    function handleBlog() {
-      //  hashHistory.push('https://dauzzie.github.io/blog');
-    }
-
     return (
       <header id="home">
 
@@ -31,8 +27,8 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#about">About</a></li>
 	         {/* <li><a className="smoothscroll" href="#resume">Resume</a></li> */}
             <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
-            <li><Link to="https://dauzzie.github.io/blog/">Blog</Link></li>
-            <li><Link to="https://dauzzie.github.io/old_dauzzie/">Old</Link></li>
+            <li><a href="https://dauzzie.github.io/blog/">Blog</a></li>
+            <li><a href="https://dauzzie.github.io/old_dauzzie/">Old</a></li>
             {/* <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li> */}
             {/* <li><a className="smoothscroll" href="#contact">Contact</a></li> */}
          </ul>
