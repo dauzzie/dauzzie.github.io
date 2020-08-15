@@ -40,7 +40,8 @@
     "education": [
       {
         "school": "University of Wisconsin-Madison",
-        "degree": "Bachelors of Science in Computer Science with Graphic Design and Game Design minor.",
+        "degree": "Bachelors of Science in Computer Science",
+        "minor": "Graphic Design and Game Design minor",
         "graduated": "May 2020",
         "description": "Three of my greatest achievements in school was to be able to create a VR game and be exhibited at a gallery, be the top 10% for my favorite class, Algorithms and be able to establish and found a group of CS students passionate in helping non-profits for social change."
       }

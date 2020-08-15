@@ -8,7 +8,8 @@ class Resume extends Component {
       var noticeSkill = this.props.data.skillmessage[0].note;
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
-        <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
+        <p className="info">{education.degree}   <span>&bull;</span><em className="date">{education.graduated}</em></p>
+        <p className="minor">{education.minor}</p>
         <p>{education.description}</p></div>
       })
       var work = this.props.data.work.map(function(work){
