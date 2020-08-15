@@ -1,139 +1,227 @@
 {
   "main": {
-    "name":"Daus",
-    "occupation":"software developer",
-    "description":"I want to change the world through art and code to be not just a keyboard warrior anymore.",
-    "image":"profilepic.jpg",
-    "bio":"I love to play with front end frameworks, data analytics, data mining, graphic design, game engines and Java. Currently am interested in exploring backend and game design.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "name": "Daus",
+    "occupation": "software developer",
+    "description": "I want to change the world through art and technology from my own comfortable home",
+    "image": "profilepic.jpg",
+    "bio": "I love to play with front end frameworks, data analytics, data mining, graphic design, game engines and Java. Currently am interested in exploring backend and game design.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "m.daushusaini@gmail.com",
     "phone": "608-257-7272",
-    "address":{
-      "street":"Johnson Street",
-      "city":"Madison",
-      "state":"Wisconsin",
+    "address": {
+      "street": "Johnson Street",
+      "city": "Madison",
+      "state": "Wisconsin",
       "zip": "53715"
     },
     "website": "http://dauzzie.github.io",
-    "resumedownload":"https://github.com/dauzzie/job_files/raw/master/resume2020%5Bfrontend%5D%5Bf%5D.pdf",
-    "phresume":"https://github.com/dauzzie/job_files/resume.placeholder.jpg",
-    "social":[
+    "resumedownload": "https://github.com/dauzzie/job_files/raw/master/resume2020%5Bfrontend%5D%5Bf%5D.pdf",
+    "phresume": "https://github.com/dauzzie/job_files/resume.placeholder.jpg",
+    "social": [
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/muhamad-firdaus-husaini/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/muhamad-firdaus-husaini/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"github",
-        "url":"http://github.com/dauzzie",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "http://github.com/dauzzie",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
+  "resume": {
+    "skillmessage": [
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description": "I have experience in graphic design, front-end and game design in the past. Currently been working on back-end.",
+        "note": "Measurements are based on proficiency/frequency of interaction, rather than any \"universal\" measurement."
       }
     ],
-    "work":[
+    "education": [
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "school": "University of Wisconsin-Madison",
+        "degree": "Bachelors of Science in Computer Science with Graphic Design and Game Design minor.",
+        "graduated": "May 2020",
+        "description": "Three of my greatest achievements in school was to be able to create a VR game and be exhibited at a gallery, be the top 10% for my favorite class, Algorithms and be able to establish and found a group of CS students passionate in helping non-profits for social change."
       }
     ],
-    "skills":[
+    "work": [
       {
-        "name":"Git",
-        "level":"60%"
+        "company": "Field Day Lab",
+        "title": "Data Research Intern",
+        "years": "July 2020 - Present",
+        "details": [
+          {
+            "bullet1": "Managed full data stack including front-end development, logging, SQL database, feature engineering and model construction for educational Javascript games that have 20,000+ plays/month",
+            "bullet2": "Developed functionalities in educational video games to enhance user experience"
+          }
+        ]
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "company": "Morgridge Institute for Research",
+        "title": "Data Analyst",
+        "years": "September 2019 – May 2020",
+        "details": [
+          {
+            "bullet1": "Created low dimensionality front-end plots of high dimensionality database entries for scientists to view online, using MongDB, Python, Scikit-learn, UMAP, and Bokeh, automated with Bash.",
+            "bullet2": "Built an automated application to combine, process, and publish various data sources into web-ready JSON objects using fasta, various APIs, SQLite, Python, Numpy, Pandas, Perl, and Bash."
+          }
+        ]
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "company": "Morgridge Institute for Research\n",
+        "title": "Full Stack Web Developer",
+        "years": "September 2019 – May 2020",
+        "details": [
+          {
+            "bullet1": "Developed a responsive website to host the blue whale genomic data for research publication using React, CSS, Typescript and Bootstrap.",
+            "bullet2": "Deployed a Javascript-based application on KVM to process and view large data for scientists using Python and Bash."
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "level": "80%",
+        "confidence": 80
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "name": "Javascript",
+        "level": "60%",
+        "confidence": 60
       },
       {
-        "name":"HTML5",
-        "level":"80%"
+        "name": "Java",
+        "level": "70%",
+        "confidence": 70
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name": "ReactJS",
+        "level": "60%",
+        "confidence": 60
       },
       {
-        "name":"MongoDB",
-        "level":"80%"
+        "name": "CSS",
+        "level": "80%",
+        "confidence": 80
+      },
+      {
+        "name": "HTML5",
+        "level": "85%",
+        "confidence": 85
+      },
+      {
+        "name": "VueJs",
+        "level": "30%",
+        "confidence": 30
+      },
+      {
+        "name": "MongoDB",
+        "level": "30%",
+        "confidence": 30
+      },
+      {
+        "name": "AngularJS",
+        "level": "35%",
+        "confidence": 35
+      },
+      {
+        "name": "Flask",
+        "level": "50%",
+        "confidence": 50
+      },
+      {
+        "name": "Bootstrap",
+        "level": "80%",
+        "confidence": 80
+      },
+      {
+        "name": "Unity",
+        "level": "70%",
+        "confidence": 70
+      },
+      {
+        "name": "Maya",
+        "level": "60%",
+        "confidence": 60
+      },
+      {
+        "name": "Illustrator",
+        "level": "80%",
+        "confidence": 80
+      },
+      {
+        "name": "Photoshop",
+        "level": "60%",
+        "confidence": 60
+      },
+      {
+        "name": "SQL",
+        "level": "80%",
+        "confidence": 80
+      },
+      {
+        "name": "C++",
+        "level": "50%",
+        "confidence": 50
+      },
+      {
+        "name": "Swift",
+        "level": "35%",
+        "confidence": 35
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Dausie Blog",
+        "category": "My blog for coding and fun things",
+        "image": "canadian-wanderlust.jpg",
+        "url": "https://dauzzie.github.io/dausie_blog"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Jisho Dictionary",
+        "category": "(in-progress) A Google Chrome extension to log Japanese words and their translations",
+        "image": "fury-fighting-gear.jpg",
+        "url": "http://dauzzie.github.io/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "RecycleIt",
+        "category": "(in-progress) React-based web app to categorize recyclables using camera and trashNET.",
+        "image": "original-thai-food.jpg",
+        "url": "http://dauzzie.github.io/recycleit/"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Teratai",
+        "category": "(in-progress) Angular-based web app to check ingredients in beauty products via Google Text API",
+        "image": "resume-website.jpg",
+        "url": "http://dauzzie.github.io/teratai"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title": "Find the Angel",
+        "category": "(Oculus Only) A horror VR immersive game made for a graphic design class built using Oculus Rift",
+        "image": "smirkspace.jpg",
+        "url": "http://github.com/dauzzie/findtheangel"
+      },
+      {
+        "title": "Process Sym",
+        "category": "A Python-based pipeline to process genes into identifiable descriptive JSON objects using the NCBI databases.",
+        "image": "resume-website.jpg",
+        "url": "http://github.com/dauzzie/genesym"
       }
     ]
   },
-  "testimonials":{
-    "testimonials":[
+  "testimonials": {
+    "testimonials": [
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
       }
     ]
   }

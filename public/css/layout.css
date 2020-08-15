@@ -242,6 +242,7 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
+
 #resume a, #resume a:visited  { color: #11ABB0; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
@@ -257,6 +258,14 @@ ul#nav li.current a { color: #F06000; }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
+
+#resume .details {
+   color: #7A7A7A;
+   text-align: left;
+   padding-bottom: 10px;
+}
+
+
 
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
@@ -311,6 +320,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
 	top: -36px;
 }
+
 .bar-expand {
    position: absolute;
    left: 0;
@@ -486,7 +496,7 @@ ul#nav li.current a { color: #F06000; }
 	transition: opacity 0.3s ease-in-out;
 
    position: absolute;
-   top: 50%;
+   top: 80%;
    left: 50%;
    margin-left: -15px;
    margin-top: -15px;

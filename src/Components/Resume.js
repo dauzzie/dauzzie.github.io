@@ -4,7 +4,8 @@ class Resume extends Component {
   render() {
 
     if(this.props.data){
-      var skillmessage = this.props.data.skillmessage;
+      var skillmessage = this.props.data.skillmessage[0].description;
+      var noticeSkill = this.props.data.skillmessage[0].note;
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
@@ -13,10 +14,13 @@ class Resume extends Component {
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-            <p>{work.description}</p>
+            <ul>
+              <li className="details">{work.details[0].bullet1}</li>
+              <li className="details">{work.details[0].bullet2}</li>
+            </ul>
         </div>
       })
-      var skills = this.props.data.skills.map(function(skills){
+      var skills = this.props.data.skills.sort((a, b) => -1*(a.confidence-b.confidence)).map(function(skills){
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
@@ -63,12 +67,16 @@ class Resume extends Component {
 
             <p>{skillmessage}
             </p>
-
-				<div className="bars">
+            <p id="note">
+              {noticeSkill}
+            </p>
+        <code>
+				<div className="bars" id="double">
 				   <ul className="skills">
 					  {skills}
 					</ul>
 				</div>
+        </code>
 			</div>
       </div>
    </section>
