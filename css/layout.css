@@ -276,7 +276,7 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 16px/24px 'librebaskerville-italic', serif;
+   font: 18px/24px 'librebaskerville-italic', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -284,6 +284,9 @@ ul#nav li.current a { color: #F06000; }
 #resume .info span {
    margin-right: 5px;
    margin-left: 5px;
+}
+#resume .minor {
+   font: 15px/24px 'opensans-regular', sans-serif;
 }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
