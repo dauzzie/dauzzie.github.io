@@ -9,7 +9,7 @@ class Portfolio extends Component {
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
             <a href={projects.url} title={projects.title}>
-               <img alt={projects.title} src={projectImage} />
+               <img className="portfolio-img" alt={projects.title} src={projectImage} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
                  <h5>{projects.title}</h5>
@@ -28,7 +28,7 @@ class Portfolio extends Component {
 
       <div className="row">
 
-         <div className="twelve columns collapsed">
+         <div className="sixteen columns collapsed">
 
             <h1>Check Out Some of My Works.</h1>
 

@@ -179,37 +179,37 @@
       {
         "title": "Dausie Blog",
         "category": "My blog for coding and fun things",
-        "image": "canadian-wanderlust.jpg",
+        "image": "blog_dausie.png",
         "url": "https://dauzzie.github.io/dausie_blog"
       },
       {
         "title": "Jisho Dictionary",
         "category": "(in-progress) A Google Chrome extension to log Japanese words and their translations",
-        "image": "fury-fighting-gear.jpg",
+        "image": "jisho.png",
         "url": "http://dauzzie.github.io/"
       },
       {
         "title": "RecycleIt",
         "category": "(in-progress) React-based web app to categorize recyclables using camera and trashNET.",
-        "image": "original-thai-food.jpg",
+        "image": "recycleit.png",
         "url": "http://dauzzie.github.io/recycleit/"
       },
       {
         "title": "Teratai",
         "category": "(in-progress) Angular-based web app to check ingredients in beauty products via Google Text API",
-        "image": "resume-website.jpg",
+        "image": "teratai.png",
         "url": "http://dauzzie.github.io/teratai"
       },
       {
         "title": "Find the Angel",
         "category": "(Oculus Only) A horror VR immersive game made for a graphic design class built using Oculus Rift",
-        "image": "smirkspace.jpg",
+        "image": "find_the_angel.png",
         "url": "http://github.com/dauzzie/findtheangel"
       },
       {
         "title": "Process Sym",
         "category": "A Python-based pipeline to process genes into identifiable descriptive JSON objects using the NCBI databases.",
-        "image": "resume-website.jpg",
+        "image": "genesym.png",
         "url": "http://github.com/dauzzie/genesym"
       }
     ]
